@@ -23,13 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5df19f16-d91d-413e-aa79-e1fd72397262" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/mememaker/utils/FileUtilities.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/mememaker/utils/FileUtilities.java" />
+      <change type="MOVED" beforePath="C:\Users\Paul's\AndroidStudioProjects\TTPhotoEditor\app\src\main\java\com\teamtreehouse\mememaker\database\MemeDatasource.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/mememaker/database/MemeDataSource.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/mememaker/ui/activities/CreateMemeActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/mememaker/ui/activities/CreateMemeActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/mememaker/ui/fragments/MemeItemFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/mememaker/ui/fragments/MemeItemFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/mememaker/MemeMakerApplication.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/mememaker/MemeMakerApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/mememaker/MemeMakerApplicationSettings.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/mememaker/MemeMakerApplicationSettings.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/mememaker/ui/fragments/MemeSettingsFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/mememaker/ui/fragments/MemeSettingsFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/teamtreehouse/mememaker/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/teamtreehouse/mememaker/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/xml/preferences.xml" afterPath="$PROJECT_DIR$/app/src/main/res/xml/preferences.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/mememaker/database/MemeSQLiteHelper.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/mememaker/database/MemeSQLiteHelper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MemeMaker.iws" />
@@ -53,13 +51,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MemeMakerApplication.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MemeMakerApplication.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/mememaker/MemeMakerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.0569948" vertical-offset="17" max-vertical-offset="578">
-              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+            <state vertical-scroll-proportion="-1.8888888" vertical-offset="17" max-vertical-offset="578">
+              <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MemeSQLiteHelper.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/mememaker/database/MemeSQLiteHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="1071">
+              <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1823#1824#0" expanded="true" />
+                <element signature="e#1880#1881#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MemeDataSource.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/mememaker/database/MemeDataSource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.33267328" vertical-offset="308" max-vertical-offset="3706">
+              <caret line="38" column="23" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="23" />
+              <folding>
+                <element signature="e#731#732#0" expanded="true" />
+                <element signature="e#794#795#0" expanded="true" />
+                <element signature="e#849#850#0" expanded="true" />
+                <element signature="e#881#882#0" expanded="true" />
+                <element signature="e#1680#1686#0" expanded="true" />
+                <element signature="e#2479#2495#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreateMemeActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/mememaker/ui/activities/CreateMemeActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-54.925926" vertical-offset="1135" max-vertical-offset="2788">
+              <caret line="184" column="0" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MemeItemFragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/mememaker/ui/fragments/MemeItemFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.3703704" vertical-offset="599" max-vertical-offset="2295">
+              <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+              <folding>
+                <element signature="e#2812#3636#0" expanded="true" />
+                <element signature="e#3601#3602#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,10 +141,11 @@
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
               <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
               <folding>
-                <element signature="e#150#171#0" expanded="true" />
-                <element signature="e#190#218#0" expanded="true" />
-                <element signature="e#243#271#0" expanded="true" />
-                <element signature="e#394#425#0" expanded="true" />
+                <marker date="1417528942619" expanded="true" signature="133:431" placeholder="..." />
+                <marker date="1417528942619" expanded="true" signature="150:171" placeholder="&quot;STORAGE&quot;" />
+                <marker date="1417528942619" expanded="true" signature="190:218" placeholder="&quot;Storage Type&quot;" />
+                <marker date="1417528942619" expanded="true" signature="243:271" placeholder="&quot;Storage Type&quot;" />
+                <marker date="1417528942619" expanded="true" signature="394:425" placeholder="&quot;INTERNAL&quot;" />
               </folding>
             </state>
           </provider>
@@ -802,12 +853,7 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/mememaker/database/MemeSQLiteHelper.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/mememaker/ui/fragments/MemeItemFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/mememaker/ui/activities/CreateMemeActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/mememaker/adapters/GridViewAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/mememaker/database/MemeDataSource.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/mememaker/database/MemeDatasource.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_create_meme.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/mememaker/ui/fragments/ImageGridFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
@@ -816,6 +862,11 @@
         <option value="$PROJECT_DIR$/app/src/main/res/xml/preferences.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/mememaker/ui/fragments/MemeSettingsFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/mememaker/MemeMakerApplication.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/mememaker/database/MemeDatasource.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/mememaker/database/MemeSQLiteHelper.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/mememaker/ui/activities/CreateMemeActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/mememaker/ui/fragments/MemeItemFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/mememaker/database/MemeDataSource.java" />
       </list>
     </option>
   </component>
@@ -1212,7 +1263,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33226323" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39966556" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2646593" sideWeight="0.29909366" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1220,7 +1271,7 @@
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32677165" sideWeight="0.49963155" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26421404" sideWeight="0.70090634" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.56354517" sideWeight="0.70090634" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1288,7 +1339,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/mememaker/database/MemeDatasource.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/mememaker/database/MemeDataSource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="480">
           <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
@@ -1344,7 +1395,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/mememaker/database/MemeDatasource.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/mememaker/database/MemeDataSource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="2310">
           <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
@@ -1365,7 +1416,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/mememaker/database/MemeDatasource.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/mememaker/database/MemeDataSource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="2310">
           <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
@@ -1386,7 +1437,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/mememaker/database/MemeDatasource.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/mememaker/database/MemeDataSource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="2490">
           <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
@@ -1414,7 +1465,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/mememaker/database/MemeDatasource.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/mememaker/database/MemeDataSource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2490">
           <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
@@ -1470,20 +1521,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/mememaker/database/MemeSQLiteHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/mememaker/ui/fragments/MemeItemFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33007812" vertical-offset="686" max-vertical-offset="2370">
-          <caret line="59" column="50" selection-start-line="59" selection-start-column="50" selection-end-line="67" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/mememaker/utils/StorageType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16728625" vertical-offset="0" max-vertical-offset="538">
@@ -1512,13 +1549,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/mememaker/ui/activities/CreateMemeActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="843" max-vertical-offset="2415">
-          <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5945946" vertical-offset="29" max-vertical-offset="510">
@@ -1534,13 +1564,6 @@
       </provider>
       <provider editor-type-id="android-designer">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/mememaker/database/MemeDatasource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4329897" vertical-offset="0" max-vertical-offset="485">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/assets/guiltypup.jpg">
@@ -1571,8 +1594,8 @@
         <state vertical-scroll-proportion="0.2125" vertical-offset="0" max-vertical-offset="629">
           <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
           <folding>
-            <element signature="e#402#420#0" expanded="true" />
-            <element signature="e#562#580#0" expanded="true" />
+            <element signature="e#402#420#0" expanded="false" />
+            <element signature="e#562#580#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1606,10 +1629,11 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
           <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
           <folding>
-            <element signature="e#150#171#0" expanded="true" />
-            <element signature="e#190#218#0" expanded="true" />
-            <element signature="e#243#271#0" expanded="true" />
-            <element signature="e#394#425#0" expanded="true" />
+            <marker date="1417528942619" expanded="true" signature="133:431" placeholder="..." />
+            <marker date="1417528942619" expanded="true" signature="150:171" placeholder="&quot;STORAGE&quot;" />
+            <marker date="1417528942619" expanded="true" signature="190:218" placeholder="&quot;Storage Type&quot;" />
+            <marker date="1417528942619" expanded="true" signature="243:271" placeholder="&quot;Storage Type&quot;" />
+            <marker date="1417528942619" expanded="true" signature="394:425" placeholder="&quot;INTERNAL&quot;" />
           </folding>
         </state>
       </provider>
@@ -1624,10 +1648,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/mememaker/MemeMakerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0569948" vertical-offset="17" max-vertical-offset="578">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        <state vertical-scroll-proportion="-1.8888888" vertical-offset="17" max-vertical-offset="578">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/mememaker/database/MemeSQLiteHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="1071">
+          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1823#1824#0" expanded="true" />
+            <element signature="e#1880#1881#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/mememaker/ui/activities/CreateMemeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-54.925926" vertical-offset="1135" max-vertical-offset="2788">
+          <caret line="184" column="0" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/mememaker/ui/fragments/MemeItemFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.3703704" vertical-offset="599" max-vertical-offset="2295">
+          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding>
+            <element signature="e#2812#3636#0" expanded="true" />
+            <element signature="e#3601#3602#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/mememaker/database/MemeDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33267328" vertical-offset="308" max-vertical-offset="3706">
+          <caret line="38" column="23" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="23" />
+          <folding>
+            <element signature="e#731#732#0" expanded="true" />
+            <element signature="e#794#795#0" expanded="true" />
+            <element signature="e#849#850#0" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
+            <element signature="e#1680#1686#0" expanded="true" />
+            <element signature="e#2479#2495#0" expanded="true" />
           </folding>
         </state>
       </provider>

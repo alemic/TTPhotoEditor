@@ -23,6 +23,6 @@ public class MemeMakerApplication extends android.app.Application {
 
 
         PreferenceManager.setDefaultValues(this, R.xml.preferences,false);
-        
+
     }
 }

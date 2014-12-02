@@ -23,11 +23,14 @@ import android.widget.Toast;
 
 import com.teamtreehouse.mememaker.R;
 import com.teamtreehouse.mememaker.adapters.MemeItemListAdapter;
+import com.teamtreehouse.mememaker.database.MemeDataSource;
 import com.teamtreehouse.mememaker.models.Meme;
 import com.teamtreehouse.mememaker.models.MemeAnnotation;
 import com.teamtreehouse.mememaker.ui.activities.CreateMemeActivity;
 import com.teamtreehouse.mememaker.ui.activities.MemeSettingsActivity;
 import com.teamtreehouse.mememaker.utils.FileUtilities;
+
+import java.util.ArrayList;
 
 
 public class MemeItemFragment extends ListFragment {
@@ -68,7 +71,10 @@ public class MemeItemFragment extends ListFragment {
                                     @Override
                                     public void onClick(DialogInterface dialogInterface, int i) {
                                         Toast.makeText(MemeItemFragment.this.getActivity(), "Should delete", Toast.LENGTH_LONG).show();
-                                        mMemeItemListAdapter.notifyDataSetChanged();
+                                        MemeDataSource dataSource = new MemeDataSource(MemeItemFragment.this.getActivity());
+                                        dataSource.delete(memeId);
+                                        refreshMemes();
+
                                         mMenu.findItem(R.id.share_action).setVisible(true);
                                         mMenu.findItem(R.id.edit_action).setVisible(true);
 
@@ -80,7 +86,22 @@ public class MemeItemFragment extends ListFragment {
             }
         });
     }
+    @Override
+    public void onResume()
+    {
+        super.onResume();
 
+       refreshMemes();
+
+    }
+
+    private void refreshMemes()
+    {
+        MemeDataSource dataSource = new MemeDataSource(this.getActivity());
+
+        ArrayList<Meme> memes = dataSource.read();
+        setListAdapter(new MemeItemListAdapter(getActivity(), memes));
+    }
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         this.setHasOptionsMenu(true);
