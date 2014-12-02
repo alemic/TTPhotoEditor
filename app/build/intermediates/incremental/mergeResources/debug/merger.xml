@@ -91,6 +91,28 @@
             <file
                 path="C:\Users\Paul&apos;s\AndroidStudioProjects\TTPhotoEditor\app\src\main\res\values\array.xml"
                 qualifiers="" >
+                <string-array name="storageEntries" >
+                    <item>
+Internal
+                    </item>
+                    <item>
+Public External
+                    </item>
+                    <item>
+Private External
+                    </item>
+                </string-array>
+                <string-array name="storageValueEntries" >
+                    <item>
+INTERNAL
+                    </item>
+                    <item>
+PUBLIC_EXTERNAL
+                    </item>
+                    <item>
+PRIVATE_EXTERNAL
+                    </item>
+                </string-array>
                 <string-array name="fontColorEntries" >
                     <item>
 White
@@ -106,28 +128,6 @@ Green
                     </item>
                     <item>
 Blue
-                    </item>
-                </string-array>
-                <string-array name="storageValueEntries" >
-                    <item>
-INTERNAL
-                    </item>
-                    <item>
-PUBLIC_EXTERNAL
-                    </item>
-                    <item>
-PRIVATE_EXTERNAL
-                    </item>
-                </string-array>
-                <string-array name="storageEntries" >
-                    <item>
-Internal
-                    </item>
-                    <item>
-Public External
-                    </item>
-                    <item>
-Private External
                     </item>
                 </string-array>
                 <string-array name="fontColorValues" >
@@ -151,9 +151,9 @@ Private External
             <file
                 path="C:\Users\Paul&apos;s\AndroidStudioProjects\TTPhotoEditor\app\src\main\res\values\colors.xml"
                 qualifiers="" >
-                <color name="default_color" >#ffffff
-                </color>
                 <color name="pressed_color" >#bbbbbb
+                </color>
+                <color name="default_color" >#ffffff
                 </color>
             </file>
             <file
@@ -185,6 +185,8 @@ Private External
                 </string>
                 <string name="edit_action" >Edit
                 </string>
+                <string name="storage_default_value" >INTERNAL
+                </string>
                 <string name="send_to" >Send To
                 </string>
                 <string name="title_storage_type" >Storage Type
@@ -195,21 +197,23 @@ Private External
                 </string>
                 <string name="settings_action" >Settings
                 </string>
-                <string name="add_meme_action" >Add Meme
-                </string>
                 <string name="share_action" >Share
                 </string>
-                <string name="app_name" >Meme Maker
+                <string name="add_meme_action" >Add Meme
                 </string>
                 <string name="action_save" >Save
                 </string>
-                <string name="title_internal_storage_type" >Internal Storage
+                <string name="app_name" >Meme Maker
                 </string>
                 <string name="dialog_message_delete_meme" >Are you sure you want to remove this meme?
+                </string>
+                <string name="title_internal_storage_type" >Internal Storage
                 </string>
                 <string name="title_public_external_storage_type" >Public External
                 </string>
                 <string name="dialog_confirm" >Please confirm
+                </string>
+                <string name="storage_key" >STORAGE
                 </string>
                 <string name="action_choose_font" >Font
                 </string>
