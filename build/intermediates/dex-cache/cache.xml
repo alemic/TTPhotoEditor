@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="C:\Users\Paul&apos;s\AndroidStudioProjects\mememaker\app\build\intermediates\pre-dexed\debug\support-v13-19.0.1-e2f65f54467ebe8df5036e0fab74cf7da0640e32.jar"
+        jar="C:\Users\Paul&apos;s\AppData\Local\Android\android-sdk\extras\android\m2repository\com\android\support\support-v13\19.0.1\support-v13-19.0.1.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="a4d00c1fa39c05a544fc2221af40bbf76e07c7df"/>
+    <item
+        dex="C:\Users\Paul&apos;s\AndroidStudioProjects\TTPhotoEditor\app\build\intermediates\pre-dexed\debug\commons-io-2.4-5e9352471e44dd68259dfab3ad11d4b3cd28f979.jar"
+        jar="C:\Users\Paul&apos;s\AndroidStudioProjects\TTPhotoEditor\app\libs\commons-io-2.4.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="b1b6ea3b7e4aa4f492509a4952029cd8e48019ad"/>
+    <item
+        dex="C:\Users\Paul&apos;s\AndroidStudioProjects\mememaker\app\build\intermediates\pre-dexed\debug\commons-io-2.4-d62c11e933ca8a48a62a9d380c406fff25b26f25.jar"
+        jar="C:\Users\Paul&apos;s\AndroidStudioProjects\mememaker\app\libs\commons-io-2.4.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="b1b6ea3b7e4aa4f492509a4952029cd8e48019ad"/>
+    <item
+        dex="C:\Users\Paul&apos;s\AndroidStudioProjects\mememaker\app\build\intermediates\pre-dexed\debug\support-v4-19.0.1-fbcfcc1da93340a06ad5890aab0f7e505f6e0b8f.jar"
+        jar="C:\Users\Paul&apos;s\AppData\Local\Android\android-sdk\extras\android\m2repository\com\android\support\support-v4\19.0.1\support-v4-19.0.1.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="587da9a481ffd341d2fa091704489b89845ddacd"/>
+
+</pre-dex-items>
